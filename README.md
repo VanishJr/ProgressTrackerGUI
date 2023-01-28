@@ -16,7 +16,7 @@ PostgreSQL database to store user data
     <li>Open the project in your preferred Java IDE</li>
     <li>Create a new database with the name of ‘ProgressTracker’.</li>
     <li>Go to DBConnection class and change "root" to master password c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/ProgressTracker", "postgres", "root");</li>
-    <li>copy the contents of db-query.txt and paste</li>
+    <li>Copy the contents of db-query.txt and paste</li>
     <li>Add a jar file to the "Libraries" in "Project Structure..."</li>
     <li>Run the application</li>
 </ol>
