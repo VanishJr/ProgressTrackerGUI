@@ -14,6 +14,9 @@ PostgreSQL database to store user data
 <ol>
     <li>Clone the repository from GitHub (https://github.com/VanishJr/ProgressTrackerGUI)</li>
     <li>Open the project in your preferred Java IDE</li>
+    <li>Create a new database with the name of ‘ProgressTracker’.</li>
+    <li>Go to DBConnection class and change "root" to master password c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/ProgressTracker", "postgres", "root");</li>
+    <li>Copy the contents of db-query.txt and paste</li>
     <li>Add a jar file to the "Libraries" in "Project Structure..."</li>
     <li>Run the application</li>
 </ol>
@@ -30,4 +33,5 @@ PostgreSQL database to store user data
 
 [Documentation](https://vanishjr.github.io/ProgressTrackerGUI/ProgessTrackerGUI/module-summary.html) available on GitHub for further information on the application and its features.
 
+If you have any questions or encounter any issues, please don't hesitate to reach out.
 
