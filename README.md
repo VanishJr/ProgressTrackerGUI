@@ -33,4 +33,5 @@ PostgreSQL database to store user data
 
 [Documentation](https://vanishjr.github.io/ProgressTrackerGUI/ProgessTrackerGUI/module-summary.html) available on GitHub for further information on the application and its features.
 
+If you have any questions or encounter any issues, please don't hesitate to reach out.
 
