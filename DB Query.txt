@@ -1,0 +1,51 @@
+
+CREATE TABLE quizes(
+   id    PRIMARY KEY     TEXT    NOT NULL,
+   name           TEXT    NOT NULL
+   
+);
+
+INSERT INTO quizes (id, name) VALUES ('0', 'Main Quiz 1');
+
+
+
+
+CREATE TABLE shop(
+   id TEXT NOT NULL,
+   name  TEXT NOT NULL,
+   price TEXT NOT NULL
+   
+);
+
+INSERT INTO shop (id, name,price) VALUES ('0', 'Item 1','500');
+
+CREATE TABLE completedquizes(
+   id TEXT NOT NULL,
+   name TEXT    NOT NULL
+   
+);
+
+CREATE TABLE points(
+   points TEXT NOT NULL,
+   level TEXT    NOT NULL
+   
+);
+
+CREATE TABLE shoppingHistory(
+   id TEXT NOT NULL,
+   name  TEXT NOT NULL,
+   price TEXT NOT NULL
+   
+);
+
+INSERT INTO shoppingHistory (id, name,price) VALUES ('0', 'Item','100');
+
+CREATE TABLE customer(
+   id TEXT NOT NULL,
+   name  TEXT NOT NULL,
+   email TEXT NOT NULL,
+   password TEXT NOT NULL
+   
+);
+
+INSERT INTO customer (id, name,email,password) VALUES ('0', 'admin','admin@gmail.com','admin');
