@@ -28,8 +28,6 @@ PostgreSQL database to store user data
 
 ## Additional Resources
 
-<ul>
-    <li> [Documentation](https://vanishjr.github.io/ProgressTrackerGUI/ProgessTrackerGUI/module-summary.html) available on GitHub for further information on the application and its features.</li>
-</ul>
+[Documentation](https://vanishjr.github.io/ProgressTrackerGUI/ProgessTrackerGUI/module-summary.html) available on GitHub for further information on the application and its features.
 
 
